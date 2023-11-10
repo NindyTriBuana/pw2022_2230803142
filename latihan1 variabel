@@ -1,0 +1,20 @@
+<?php
+
+$a = "hello";
+$hello = "Hello World!";
+
+//menampilkan isi variabel $a
+//hello
+echo $a . "</br>";
+
+//menampilkan isi variabel $a
+//hello World!
+echo $hello . "</br>";
+
+//menampilkan isi variabel dengan nama yang sama seperti isi variabel $a
+//isi variabel $a = hello. Jadi, nanti akan menampilkan isi dari variabekl
+$hello
+//Hello World
+echo $$a . "</br>";
+
+?>
